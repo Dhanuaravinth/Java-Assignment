@@ -1,16 +1,42 @@
 # langprojects
 Programming projects on C, C++, Java, Python
+
 Java Assignment 
-1. Write a java program that simulates a traffic light. The program lets the user select one of three lights: red, yellow, or green with radio buttons. On selecting a button, an    appropriate message with “stop” or “ready” or “go” should appear above the buttons in a selected color. Initially there is no message shown. - Traffic Lights
-2. Write a program to create the book class and update the version number of the book using overriding - Book
-3. Use inheritance to display a student record (continued)
-   Create a class that defines a student. This class should contain at least two instance variables for identification number and GPA. It should also contain two constructors, a    default and other accepts two values for the instance variables
-   Create a class that defines a college student. To do this, the class should inherit the above class. In addition to the inherited instance variables, this class should          contain at least one more instance variable that defines the college student’s major. This class should also contain a default constructor and one that accepts three values      for the instance variables. The first statement in this constructor should call a constructor in the superclass. - StudentData
-4. Write a class that represents a date, with the month, day, and year represented by strings. The class should have a constructor that takes the three parts of thedate as          parameters, and value-returning methods that return the date in mm/dd/yyyy format and in yyyy-mm-dd format. (Hint: The general structure ofthis class is very similar to          Name.) - Date
+
+1. Write a java program that simulates a traffic light. The program lets the user select one of three lights: red, yellow, or green with radio buttons. On selecting a button,    an appropriate message with “stop” or “ready” or “go” should appear above the buttons in a selected color. Initially there is no message shown. - (Traffic Lights)
+2. Write a program to create the book class and update the version number of the book using overriding - (Book)
+3. Use inheritance to display a student record (continued) Create a class that defines a student. This class should contain at least two instance variables for identification    number and GPA. It should also contain two constructors, a default and other accepts two values for the instance variables Create a class that defines a college student.  
+   To do this, the class should inherit the above class. In addition to the inherited instance variables, this class should contain at least one more instance variable that  
+   defines the college student’s major. This class should also contain a default constructor and one that accepts three values    for the instance variables. The first  
+   statement in this constructor should call a constructor in the superclass. - (StudentData)
+4. Write a class that represents a date, with the month, day, and year represented by strings. The class should have a constructor that takes the three parts of thedate as      parameters, and value-returning methods that return the date in mm/dd/yyyy format and in yyyy-mm-dd format. (Hint: The general structure ofthis class is very similar to      Name.) - (Date)
 5. Write a Java class Clock for dealing with the day time represented by hours, minutes, and seconds. Your class must have the following features:
    Three instance variables:
    hours (range 0 - 23), minutes (range 0 - 59), and seconds (range 0 - 59).
    Three constructors:
    default constructor
    a constructor with three parameters: hours, minutes, and seconds.
-   a constructor with one parameter: the value of time in seconds. - Clock
+   a constructor with one parameter: the value of time in seconds. - (Clock)
+6. Write a java program to create an abstract class named Shape that contains two integers and an empty method named printArea(). Provide three classes named Rectangle,          Triangle and Circle such that each one of the classes extends the class Shape. Each one of the classes contain only the method printArea( ) that prints the area of the  
+   given shape. - (Shape)
+7. Write a program that creates a user interface to perform integer divisions. The user enters two numbers in the text fields, Num1 and Num2. The division of Num1 and Num2 is 
+   displayed in the Result field when the Divide button is clicked. If Num1 or Num2 were not an integer, the program would throw a NumberFormatException. If Num2 were Zero,  
+   the program would throw an Arithmetic Exception Display the exception in a
+   message dialog box. - (Division)
+8. Create a Package Library and write a program to perform the book issue and return process of the particular book from the set of books using proper exception handlers like    out of stock of the book, reference copy. - (Library)
+9. You are required to compute the power of a number by implementing a Calculator class. Create a MyCalculator which consists of single method long power (int, int). This 
+   method takes two integers, n and p, as parameters and find 𝑛^p. If either n or p is negative, then the method must throw an exception which says “n or p should not be 
+   negative. Also, if n and p are zero, then the method must throw an exception which says “n and p should not be zero”. - (Calculator)
+10. You will be given two integers x and y as input, compute x/y. If x and y are not 32 bit signed integers or if y is zero, exception will occur and you have to report it.  
+    Read sample Input/Output to know what to report in case of exceptions.
+    Sample Input 1: Sample Input 2:
+    10              10
+    3               hello
+    Sample Output 1: Sample Output 2:
+    3                java.uti.InputMismatchException
+    Sample Input 3: Sample Input 4:
+    10              20.45
+    0               5
+    Sample Output3:                             Sample Output 4:
+    java.lang.ArithmeticException: / by zero    java.uti.InputMismatchException. - (Exception on xy)
+11. 
