@@ -1,0 +1,16 @@
+# langprojects
+Programming projects on C, C++, Java, Python
+Java Assignment 
+1. Write a java program that simulates a traffic light. The program lets the user select one of three lights: red, yellow, or green with radio buttons. On selecting a button, an    appropriate message with “stop” or “ready” or “go” should appear above the buttons in a selected color. Initially there is no message shown. - Traffic Lights
+2. Write a program to create the book class and update the version number of the book using overriding - Book
+3. Use inheritance to display a student record (continued)
+   Create a class that defines a student. This class should contain at least two instance variables for identification number and GPA. It should also contain two constructors, a    default and other accepts two values for the instance variables
+   Create a class that defines a college student. To do this, the class should inherit the above class. In addition to the inherited instance variables, this class should          contain at least one more instance variable that defines the college student’s major. This class should also contain a default constructor and one that accepts three values      for the instance variables. The first statement in this constructor should call a constructor in the superclass. - StudentData
+4. Write a class that represents a date, with the month, day, and year represented by strings. The class should have a constructor that takes the three parts of thedate as          parameters, and value-returning methods that return the date in mm/dd/yyyy format and in yyyy-mm-dd format. (Hint: The general structure ofthis class is very similar to          Name.) - Date
+5. Write a Java class Clock for dealing with the day time represented by hours, minutes, and seconds. Your class must have the following features:
+   Three instance variables:
+   hours (range 0 - 23), minutes (range 0 - 59), and seconds (range 0 - 59).
+   Three constructors:
+   default constructor
+   a constructor with three parameters: hours, minutes, and seconds.
+   a constructor with one parameter: the value of time in seconds. - Clock
