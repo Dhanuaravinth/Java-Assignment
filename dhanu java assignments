@@ -39,4 +39,13 @@ Java Assignment
     0               5
     Sample Output3:                             Sample Output 4:
     java.lang.ArithmeticException: / by zero    java.uti.InputMismatchException. - (Exception on xy)
-11. 
+11. Write a Java program that reads a file and displays the file on the screen, with a line number before each line ? - (File)
+12. Write a Java method to check whether a string is a valid password.
+    Password rules:
+    A password must have at least ten characters.
+    A password consists of only letters and digits.
+    A password must contain at least two digits. - (Password)
+13. Write a Java program to compare two strings lexicographically, ignoring case differences. - (String compare)
+14. Write a Java program to create the book class to display all the books containing the particular word using sub-string function. - (Substring)
+15. Write a Java program that reads on file name from the user, then displays information about whether the file exists, whether the file is readable, whether the file is 
+    writable, the type of file and the length of the file in bytes and displays the number of characters, lines and words in a file. - (File data)
